@@ -1,7 +1,7 @@
 from flask import Flask , render_template,url_for , redirect,request
 import numpy
 import pandas
-import xgboost as xgb
+from  sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 
 
@@ -26,9 +26,8 @@ def predic(final_features):
     y = df["price_usd"]
     X_train, X_test, y_train, y_test = train_test_split(x, y, test_size = 0.3, random_state = 42)
 
-    model = xgb.XGBRegressor()
+    model = RandomForestRegressor(n_estimators=9 , random_state=42)
     model.fit(X_train,y_train)
-    # inp = numpy.array(final_features)
     return (model.predict([final_features])[0])
     
 

@@ -5,4 +5,3 @@ gunicorn
 scikit-learn
 pandas
 seaborn
-xgboost
