@@ -57,6 +57,10 @@ app.config.update(
 def index():
     return render_template("index.html")
 
+@app.route("/feedback", methods = ["GET","POST"])
+def feedback():
+    return render_template("feedback.html")
+
 @app.route("/home/" , methods = ["GET","POST"])
 def home():
     return render_template("index.html")
@@ -83,7 +87,6 @@ def predict():
         transmission_types = ['automatic', 'mechanical']
         transmission_types.sort()
         f2 = str(request.form["transmission_type"])
-        # print(f2,type(f2) , transmission_types)
         final_features.append(transmission_types.index(f2))
         
         

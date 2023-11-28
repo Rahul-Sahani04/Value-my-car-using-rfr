@@ -85,7 +85,7 @@ li{
         padding-left: 10px;
         padding-right: 10px;
         text-align: justify;
-        font-size: small;
+        font-size: medium;
     }
     
     .div1{
@@ -98,7 +98,7 @@ li{
         /* font-family: 'Noto Sans', sans-serif; */
         /* font-family: 'Pixelify Sans', sans-serif; */
         font-family: 'Roboto Slab', serif;
-        font-size: small;
+        font-size: medium;
         /* padding-bottom: 25px; */
         
     }
@@ -126,7 +126,7 @@ li{
         background-repeat: no-repeat;
         /* height: 100vh; */
         background-attachment: fixed;
-        font-size: small;
+        font-size: medium;
         margin: 0; 
         /* padding-left: 10px;
         padding-right: 10px; */
