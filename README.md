@@ -41,5 +41,3 @@ The project's code is organized into several files:
 ## Deployment Guide for Render
 
 For detailed instructions on deploying this application on Render, please refer to the [deployment guide](https://scribehow.com/shared/Step-by-Step_Guide_Deploying_a_Car_Valuation_Web_Service_on_Render__NY7HuHVVRwWmOwbWT70vPw).
-
-<iframe src="https://scribehow.com/embed/Step-by-Step_Guide_Deploying_a_Car_Valuation_Web_Service_on_Render__NY7HuHVVRwWmOwbWT70vPw?as=scrollable" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
