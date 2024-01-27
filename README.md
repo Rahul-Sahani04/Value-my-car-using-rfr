@@ -28,7 +28,7 @@ or
 gunicorn --bind 127.0.0.1:5000 app:app
 ```
 
-The application will be accessible at `http://localhost:5000`.
+The application will be accessible at `http://127.0.0.1:5000/`.
 
 ## Code Structure
 
